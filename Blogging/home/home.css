@@ -1,0 +1,67 @@
+
+.topnav {
+    background-color: #c7d0cb;
+    display: flex;
+    justify-content:center;
+  }
+
+  .topnav a {
+    border-radius: 9px;
+    color: #0c0c0b;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: cursive;
+    
+  }
+  
+  .topnav a:hover {
+    background-color: #c8754b;
+  }
+
+  .container{
+    display:inline-block;
+    margin-left: 70px;
+  }
+
+  .one{
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(18, 1, 1);
+    border-radius: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid pink;
+  }
+  
+  .one img{
+    margin-top: 10px;
+    width: 150px;
+    height:150px;
+    border-radius: 7px;
+  }
+
+  #like{
+    cursor: pointer;
+    
+  }
+  #thumps
+  {
+    cursor: pointer;
+  }
+
+  button{
+    border: none;
+  }
+
+  .two{
+    
+    width: 30px;
+    float: right;
+  }
+  .three{
+    
+    width: 30px;
+  }
+
+ 

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Product Marketplace</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Digital Marketplace</a>
+    <li><a href="#">Home</a></li>
+</nav>
+
+<!-- Product Listings -->
+<div class="container mt-5">
+    <h2>Featured Products</h2>
+    <div class="row">
+        <!-- Example Product Card (You can loop through products from the backend) -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="product_image.jpg" class="card-img-top" alt="Product Image">
+                <div class="card-body">
+                    <h5 class="card-title">Product Title</h5>
+                    <p class="card-text">Product Description</p>
+                    <p class="card-text">Price: Rs19.99</p>
+                    <a href="#" class="btn btn-primary">Buy Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Product Details (You can create a separate product details page) -->
+<div class="container mt-5">
+    <h2>Product Details</h2>
+    <div class="row">
+        <div class="col-md-8">
+            <img src="product_image.jpg" class="img-fluid" alt="Product Image">
+        </div>
+        <div class="col-md-4">
+            <h3>Sameer</h3>
+            <p>Product Description</p>
+            <p>Price: Rs19.99</p>
+            <button class="btn btn-primary">Buy Now</button>
+        </div>
+    </div>
+</div>
+
+<!-- User Reviews and Ratings (You can loop through reviews from the backend) -->
+<div class="container mt-5">
+    <h2>User Reviews</h2>
+    <div class="row">
+        <!-- Example Review Card (You can loop through reviews from the backend) -->
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">User's Name</h5>
+                    <p class="card-text">User's Review</p>
+                    <p class="card-text">Rating: 4.5/5</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
